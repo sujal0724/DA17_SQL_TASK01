@@ -1,0 +1,53 @@
+CREATE TABLE ELECTRONIC_SHOP (
+    ITEM_ID BIGINT,
+    ITEM_NAME VARCHAR,
+    CATEGORY VARCHAR,
+    PRICE INT,
+    STOCK VARCHAR,
+    BRAND VARCHAR,
+    RELEASE_YEAR INT
+)
+
+INSERT INTO ELECTRONIC_SHOP (ITEM_ID, ITEM_NAME, CATEGORY, PRICE, STOCK, BRAND, RELEASE_YEAR) VALUES
+(1, 'Laptop', 'Computers', 999, '50 Units', 'Dell', 2023),
+(2, 'Smartphone', 'Mobiles', 899, '100 Units', 'Samsung', 2023),
+(3, 'Tablet', 'Tablets', 599, '70 Units', 'Apple', 2022),
+(4, 'Smartwatch', 'Wearables', 699, '80 Units', 'Garmin', 2023),
+(5, 'Wireless Earbuds', 'Audio', 149, '200 Units', 'Sony', 2023),
+(6, 'Gaming Console', 'Gaming', 499, NULL, 'Microsoft', 2023), 
+(7, 'Bluetooth Speaker', 'Audio', 199, '150 Units', NULL, 2023), 
+(8, 'Smart TV', 'Television', 999, '40 Units', 'LG', NULL), 
+(9, 'Desktop Computer', 'Computers', 799, NULL, 'HP', 2023),
+(10, 'Mechanical Keyboard', 'Accessories', 129, '300 Units', NULL, 2023), 
+(11, 'Wireless Mouse', 'Accessories', NULL, '500 Units', 'Logitech', 2022), 
+(12, 'External Hard Drive', 'Storage', 79, '120 Units', NULL, 2022), 
+(13, 'Power Bank', 'Chargers', 49, NULL, 'Anker', 2021), -- NULL Stock
+(14, 'Portable Projector', 'Projectors', 799, '30 Units', NULL, 2022), 
+(15, 'VR Headset', 'Gaming', 649, '90 Units', 'Meta', NULL),
+(16, 'Digital Camera', 'Photography', 999, '20 Units', 'Canon', 2022),
+(17, 'Smart Home Hub', 'Smart Home', NULL, '60 Units', 'Google', 2022),
+(18, 'E-Reader', 'Tablets', 149, '50 Units', 'Amazon', 2023),
+(19, 'Graphics Card', 'Computers', 179, NULL, 'Nvidia', 2022), 
+(20, 'Microwave Oven', 'Appliances', 699, '100 Units', NULL, NULL), 
+(21, 'Air Purifier', 'Appliances', 429, '70 Units', 'Dyson', 2022),
+(22, 'Smart Doorbell', 'Smart Home', 249, '80 Units', 'Ring', 2023),
+(23, 'Wireless Router', 'Networking', 199, NULL, 'TP-Link', 2021), 
+(24, 'Coffee Maker', 'Appliances', 399, '50 Units', 'Nespresso', 2022),
+(25, 'Induction Cooktop', 'Appliances', 249, '40 Units', NULL, 2023),
+(26, 'Robot Vacuum', 'Appliances', 499, '30 Units', 'iRobot', NULL), 
+(27, 'Gaming Headset', 'Gaming', NULL, '150 Units', 'Razer', 2022), 
+(28, 'Portable SSD', 'Storage', 549, '80 Units', 'Samsung', 2023),
+(29, 'Home Theater System', 'Audio', 199, NULL, 'Bose', 2023),
+(30, 'Smart Light Bulb', 'Smart Home', 49, '500 Units', NULL, 2022), 
+(31, 'Electric Kettle', 'Appliances', 79, '200 Units', 'Philips', 2021),
+(32, 'Washing Machine', 'Appliances', NULL, '25 Units', 'Whirlpool', 2021), 
+(33, 'Drone Camera', 'Photography', 349, '40 Units', 'DJI', 2020),
+(34, 'Soundbar', 'Audio', 599, NULL, 'Sony', 2020), 
+(35, 'Smart Refrigerator', 'Appliances', 699, '20 Units', 'Samsung', 2021),
+(36, 'Laptop Cooling Pad', 'Accessories', 49, '100 Units', 'Cooler Master', 2021),
+(37, 'USB Flash Drive', 'Storage', 19, '500 Units', NULL, 2022),
+(38, 'CCTV Camera', 'Security', 279, '70 Units', 'Hikvision', NULL), 
+(39, 'Air Conditioner', 'Appliances', 299, '15 Units', 'Hitachi', NULL), 
+(40, 'Fitness Tracker', 'Wearables', 99, '200 Units', NULL, 2021); 
+
+SELECT * FROM ELECTRONIC_SHOP
